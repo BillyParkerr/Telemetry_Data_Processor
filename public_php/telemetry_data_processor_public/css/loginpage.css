@@ -1,0 +1,57 @@
+body {
+    background-color: #5BCBDC;
+}
+
+h1 {
+    background-color: #5B6CDC;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans';
+}
+
+form {
+    border: 5px solid #5B6CDC;
+    text-align: left;
+}
+
+input[type=text], input[type=password] {
+    margin: 10px;
+    padding: 15px 22px;
+    width: 80%;
+    display: inline-block;
+    border: 2px solid #6350C1;
+    font-family: 'lucida sans regular';
+}
+
+label {
+    color: blue;
+    margin: 15px;
+    float: left;
+    font-family: 'Lucida Sans';
+}
+
+button {
+    margin: 10px;
+    padding: 17px 22px;
+    width: 80%;
+    border: none;
+    background-color: #5435EF;
+    color: #ADACB3;
+    cursor: pointer;
+    font-family: 'Lucida Sans';
+}
+
+.cancelButton {
+    background-color: red;
+    width: auto;
+    padding: 12px 18px;
+    color: #3D63CB;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.loginInput {
+    padding: 20px;
+}
