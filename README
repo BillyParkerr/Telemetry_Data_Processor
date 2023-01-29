@@ -1,0 +1,20 @@
+Group Project for CTEC3110 Secure Web Application Development
+
+Team Members:
+Billy Parker
+Amanda Osborn
+Michelle Loizou
+
+SETUP
+
+1 - Clone this repo to the following directory:
+    p3t/phpappfolder/
+2 - open a terminal
+3 - run sudo su
+4 - enter password
+5 - run mariadb
+6 - to create the database run source /p3t/phpappfolder/MySql_Database_Creation_Script.sql
+7 -  To execute the program go to:
+     http://localhost:6789/ctec3110/telemetry_data_processor_application/public/
+
+This was created using the VMWare VM, you may have to make tweaks for it to run on the lab computers.
