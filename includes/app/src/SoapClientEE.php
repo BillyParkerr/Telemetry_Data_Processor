@@ -10,24 +10,54 @@ use PhpParser\Node\Expr\Array_;
 use SoapClient;
 use SoapFault;
 
+/**
+ *
+ */
 class SoapClientEE
 {
+    /**
+     * @var string
+     */
     private string $username;
+    /**
+     * @var string
+     */
     private string $password;
+    /**
+     * @var Logger
+     */
     private Logger $logger;
+    /**
+     * @var SoapClient
+     */
     private SoapClient $client;
+    /**
+     * @var SQLHelper
+     */
     private SQLHelper $SQLHelper;
 
+    /**
+     * @param Logger $logger
+     * @param SQLHelper $SQLHelper
+     */
     public function __construct(Logger $logger, SQLHelper $SQLHelper)
     {
         $this->logger = $logger;
         $this->SQLHelper = $SQLHelper;
     }
 
+    /**
+     *
+     */
     public function __destruct()
     {
     }
 
+    /**
+     * @param $username
+     * @param $password
+     * @return void
+     */
     public function createEESoapConnection($username, $password): void
     {
         $this->username = $username;
@@ -42,6 +72,12 @@ class SoapClientEE
         }
     }
 
+    /**
+     * @param int $count
+     * @param string $deviceMsisdn
+     * @param string $countryCode
+     * @return array
+     */
     public function peekMessages(int $count, string $deviceMsisdn, string $countryCode) : array
     {
         $message_list = [];
@@ -101,15 +137,23 @@ class SoapClientEE
         return $message_list;
     }
 
+    /**
+     * @param Message $message
+     * @return void
+     */
     private function sendMessageReceivedConfirmation(Message $message){
         $messageToSend = "Your message sent at " . $message->getReceivedtime() . " has been processed.";
         $webservice_call_result = $this->client->sendMessage($this->username, $this->password, $message->getSourcemsisdn(), $messageToSend, false, "SMS");
-
+        $this->logger->info("Message received at " . $message->getReceivedtime() . " from " . $message->getSourcemsisdn() . " has been processed");
         if ($webservice_call_result == null) {
             $this->logger->warning("SOAP Request sendMessage failed!");
         }
     }
 
+    /**
+     * @param Message $message
+     * @return bool
+     */
     private function isDuplicateMessage(Message $message) : bool
     {
         // Get message by received time

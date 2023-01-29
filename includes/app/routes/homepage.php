@@ -3,9 +3,13 @@
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
-// TODO The logger needs to be injected here rather than initialising a new instance.
-
-$app->get('/', function(Request $request, Response $response) use ($app)
+$app->get(/**
+ * @param Request $request
+ * @param Response $response
+ * @return mixed
+ * @throws \Psr\Container\ContainerExceptionInterface
+ * @throws \Psr\Container\NotFoundExceptionInterface
+ */ '/', function(Request $request, Response $response) use ($app)
 {
     $soapClientEEObject = $app->getContainer()->get('soapClientEE');
     $soapClientEEObject->createEESoapConnection('22_2528439', 'Shinobufan123!');

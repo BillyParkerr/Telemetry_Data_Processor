@@ -17,6 +17,12 @@ $settings = require __DIR__ . '/app/settings.php';
 
 $container = new \Slim\Container($settings);
 
+/**
+ * @param Container $c
+ * @return EntityManager
+ * @throws \Doctrine\ORM\Exception\ORMException
+ * @throws \Psr\Container\ContainerExceptionInterface
+ */
 $container[EntityManager::class] = function (Container $c): EntityManager {
     /** @var array $settings */
     $settings = $c->get('settings');

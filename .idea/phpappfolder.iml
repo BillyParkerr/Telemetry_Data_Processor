@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/includes/app/src" isTestSource="false" packagePrefix="EESoapClient\" />
+      <sourceFolder url="file://$MODULE_DIR$/includes/app/src/model" isTestSource="false" packagePrefix="model\" />
       <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-di/php-di" />
       <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-di/invoker" />
       <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-di/phpdoc-reader" />
