@@ -1,0 +1,46 @@
+body {
+    background-color: #5BCBDC;
+}
+
+h1 {
+    background-color: #5B6CDC;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans';
+}
+
+form {
+    border: 5px solid #5B6CDC;
+    text-align: left;
+}
+
+#heaterTemp, #fanState, #keypadValue {
+    border: 2px solid #5B6CDC;
+}
+
+#keypadValue {
+    border-bottom: 4px solid #5B6CDC;
+}
+
+label {
+    margin: 10px;
+    color: blue;
+    font-family: 'Lucida Sans';
+    float: left;
+}
+
+button {
+    margin: 10px;
+    padding: 17px 22px;
+    width: 80%;
+    border: 1px solid white;
+    background-color: #5435EF;
+    color: #ADACB3;
+    cursor: pointer;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+}
+
+button:hover{
+    opacity: 0.5;
+}
