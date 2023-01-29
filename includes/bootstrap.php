@@ -13,7 +13,7 @@ use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 use Slim\Container;
 require 'vendor/autoload.php';
 
-$settings = require __DIR__ .'/app/settings.php';
+$settings = require __DIR__ . '/app/settings.php';
 
 $container = new \Slim\Container($settings);
 

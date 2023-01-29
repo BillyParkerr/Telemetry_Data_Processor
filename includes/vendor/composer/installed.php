@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'dmu/php_apps',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'ffbba489930682cef5d5e0e56c687fb68ae4708c',
         'type' => 'labwork',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'dmu/php_apps' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'ffbba489930682cef5d5e0e56c687fb68ae4708c',
             'type' => 'labwork',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -58,7 +58,7 @@
         'doctrine/dbal' => array(
             'pretty_version' => '3.6.x-dev',
             'version' => '3.6.9999999.9999999-dev',
-            'reference' => '267985c29609b223f4a1db56a5edeb3fffc02d00',
+            'reference' => 'a340f1f26e3c8a9b7642548cf14f90fb0a6681b0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/dbal',
             'aliases' => array(),
@@ -112,7 +112,7 @@
         'doctrine/orm' => array(
             'pretty_version' => '2.15.x-dev',
             'version' => '2.15.9999999.9999999-dev',
-            'reference' => '2ee936acb4de4bfbcad6122e6f59e7adab25792e',
+            'reference' => 'd593c33ffaedb75fff9eb5b57cc3bbb2d18f76b0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/orm',
             'aliases' => array(),
@@ -141,7 +141,7 @@
         'laravel/serializable-closure' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'e04e46a3aeff6946a06b6c06c7fa96f1461d3cf6',
+            'reference' => '975c8239e2d8c9582fa5280cf8b9496aa717c173',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/serializable-closure',
             'aliases' => array(
@@ -179,7 +179,7 @@
         'nikic/php-parser' => array(
             'pretty_version' => '4.x-dev',
             'version' => '4.9999999.9999999.9999999-dev',
-            'reference' => '2f1fd784fe5560675722a1e5cbbcece5f43bf3a0',
+            'reference' => '570e980a201d8ed0236b0a62ddf2c9cbb2034039',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nikic/php-parser',
             'aliases' => array(),
@@ -215,8 +215,8 @@
             'dev_requirement' => false,
         ),
         'php-di/php-di' => array(
-            'pretty_version' => '6.4.0',
-            'version' => '6.4.0.0',
+            'pretty_version' => '6.4.x-dev',
+            'version' => '6.4.9999999.9999999-dev',
             'reference' => 'ae0f1b3b03d8b29dff81747063cbfd6276246cc4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../php-di/php-di',
@@ -235,7 +235,7 @@
         'phpunit/php-code-coverage' => array(
             'pretty_version' => '9.2.x-dev',
             'version' => '9.2.9999999.9999999-dev',
-            'reference' => '74b7413e8d9788df77e296adabd7c1f6ca801a99',
+            'reference' => '2cf940ebc6355a9d430462811b5aaa308b174bed',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/php-code-coverage',
             'aliases' => array(),
@@ -278,9 +278,9 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
-            'pretty_version' => '9.5.x-dev',
-            'version' => '9.5.9999999.9999999-dev',
-            'reference' => '7847a4a920f686db261da1ccc92120800822661f',
+            'pretty_version' => '9.6.x-dev',
+            'version' => '9.6.9999999.9999999-dev',
+            'reference' => 'e6c588044e41e22777225c4339bce021113cc829',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
@@ -371,8 +371,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0.0 || 2.0.0 || 3.0.0',
-                1 => '1.0|2.0',
+                0 => '1.0|2.0',
+                1 => '1.0.0 || 2.0.0 || 3.0.0',
             ),
         ),
         'psr/simple-cache-implementation' => array(
@@ -537,9 +537,9 @@
             'dev_requirement' => true,
         ),
         'slim/psr7' => array(
-            'pretty_version' => '1.5',
-            'version' => '1.5.0.0',
-            'reference' => 'a47b43a8da7c0208b4c228af0cb29ea36080635a',
+            'pretty_version' => '1.6',
+            'version' => '1.6.0.0',
+            'reference' => '3471c22c1a0d26c51c78f6aeb06489d38cf46a4d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../slim/psr7',
             'aliases' => array(),
@@ -566,7 +566,7 @@
         'squizlabs/php_codesniffer' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'cd5acaa651df870e8a3207926f236400361219e0',
+            'reference' => 'add95a74551c3ba8fc99ef7651ad05f553b3fbbf',
             'type' => 'library',
             'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
             'aliases' => array(
@@ -732,7 +732,7 @@
         'twig/twig' => array(
             'pretty_version' => '2.x-dev',
             'version' => '2.9999999.9999999.9999999-dev',
-            'reference' => '0986e5468209a40279b1ae60b27be84844424907',
+            'reference' => 'eb8bde3c41402fa97edc197fa98dd921f163b461',
             'type' => 'library',
             'install_path' => __DIR__ . '/../twig/twig',
             'aliases' => array(),

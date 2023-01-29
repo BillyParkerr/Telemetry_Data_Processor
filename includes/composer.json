@@ -21,7 +21,8 @@
     "ext-soap": "*",
     "ext-simplexml": "*",
     "symfony/cache": "5.4.x-dev",
-    "doctrine/annotations": "2.0.x-dev"
+    "doctrine/annotations": "2.0.x-dev",
+    "symfony/string": "5.4.x-dev"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5.20",
@@ -29,8 +30,8 @@
   },
   "autoload": {
     "psr-4": {
-      "EESoapClient\\": "telemetry_data_processor_application/app/src",
-      "model\\": "telemetry_data_processor_application/app/src/model"
+      "EESoapClient\\": "app/src",
+      "model\\": "app/src/model"
     }
   }
 }
