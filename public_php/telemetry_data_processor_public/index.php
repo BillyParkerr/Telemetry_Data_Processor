@@ -5,4 +5,4 @@ which will contain configuration and routing instructions
 This is the single point of entry to your application
  */
 
-include 'telemetry_data_processor_application/bootstrap.php';
+include 'bootstrap.php';

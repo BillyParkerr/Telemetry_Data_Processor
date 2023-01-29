@@ -1670,3 +1670,199 @@
 [28-Jan-2023 01:59:32 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
 [28-Jan-2023 23:44:41 Europe/London] PHP Parse error:  syntax error, unexpected ')' in /p3t/phpappfolder/includes/telemetry_data_processor_application/app/routes/homepage.php on line 13
 [28-Jan-2023 23:45:05 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /p3t/phpappfolder/includes/telemetry_data_processor_application/app/routes/homepage.php on line 14
+[29-Jan-2023 03:35:31 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:35:31 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:35:31 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:35:31 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:35:31 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:35:31 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:35:31 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:35:31 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:35:31 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:35:31 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:35:31 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:35:31 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:35:31 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:35:31 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:35:31 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:35:31 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:35:31 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:35:31 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:35:31 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:39:04 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:40:26 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:40:26 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:40:26 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:40:26 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:40:26 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:40:26 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:40:26 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:40:26 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:40:26 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:40:26 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:40:26 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:40:26 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:40:26 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:40:26 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:40:26 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:40:26 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:40:26 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:40:26 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:40:26 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:42:25 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:42:25 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:42:25 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:42:25 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:42:25 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/ctec3110/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:42:25 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/ctec3110/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:42:25 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:42:25 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:42:25 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:42:25 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:42:25 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:42:25 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:42:25 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:42:25 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/ctec3110/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:42:25 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/ctec3110/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:42:25 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:42:25 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:42:25 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:42:25 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:43:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:43:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:43:42 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:43:42 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:43:42 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:43:42 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:43:42 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:43:42 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:43:42 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:43:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:43:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:43:42 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:43:42 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:43:42 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:43:42 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:43:42 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:43:42 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:43:42 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:43:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:15 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:15 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:15 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:44:15 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:44:15 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:44:15 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:44:15 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:44:15 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:44:15 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:44:15 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:15 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:15 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:44:15 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:44:15 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:44:15 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:44:15 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:44:15 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:44:15 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:44:15 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:36 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:36 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:36 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:44:36 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:44:36 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:44:36 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:44:36 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:44:36 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:44:36 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:44:36 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:36 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:44:36 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:44:36 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:44:36 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:44:36 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:44:36 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/telemetry_data_processor_application/bootstrap.php:14
+[29-Jan-2023 03:44:36 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:44:36 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:44:36 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:17 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:17 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:17 Europe/London] PHP Warning:  include(telemetry_data_processor_application/bootstrap.php): failed to open stream: No such file or directory in /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php on line 8
+[29-Jan-2023 03:50:17 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:50:17 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:50:17 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:17 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:17 Europe/London] PHP Warning:  include(): Failed opening 'telemetry_data_processor_application/bootstrap.php' for inclusion (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php on line 8
+[29-Jan-2023 03:50:17 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:50:17 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:50:17 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:42 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:50:42 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:50:42 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:50:42 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:50:42 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/bootstrap.php:14
+[29-Jan-2023 03:50:42 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:50:42 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:50:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:50:42 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:50:42 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:50:42 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:50:42 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:50:42 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/bootstrap.php:14
+[29-Jan-2023 03:50:42 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:50:42 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:50:42 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:52:48 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:52:48 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:52:48 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:52:48 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:52:48 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:52:48 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:52:48 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/bootstrap.php:14
+[29-Jan-2023 03:52:48 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:52:48 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:52:48 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:52:48 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:52:48 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:52:48 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:52:48 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:52:48 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:52:48 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/bootstrap.php:14
+[29-Jan-2023 03:52:48 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:52:48 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:52:48 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:54:08 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:54:08 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:54:08 Europe/London] PHP Warning:  require(/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php): failed to open stream: No such file or directory in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:54:08 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:54:08 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:54:08 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:54:08 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/bootstrap.php:14
+[29-Jan-2023 03:54:08 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:54:08 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:54:08 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:54:08 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:54:08 Europe/London] PHP Fatal error:  require(): Failed opening required '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/p3t/phpappfolder/includes') in /p3t/phpappfolder/includes/vendor/composer/autoload_real.php on line 55
+[29-Jan-2023 03:54:08 Europe/London] PHP Stack trace:
+[29-Jan-2023 03:54:08 Europe/London] PHP   1. {main}() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:0
+[29-Jan-2023 03:54:08 Europe/London] PHP   2. include() /p3t/phpappfolder/public_php/telemetry_data_processor_public/index.php:8
+[29-Jan-2023 03:54:08 Europe/London] PHP   3. require() /p3t/phpappfolder/includes/bootstrap.php:14
+[29-Jan-2023 03:54:08 Europe/London] PHP   4. ComposerAutoloaderInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::getLoader() /p3t/phpappfolder/includes/vendor/autoload.php:25
+[29-Jan-2023 03:54:08 Europe/London] PHP   5. composerRequire7d5b262c3c7c60f7e5e3a98dfbe4a1b2($fileIdentifier = 'b6b991a57620e2fb6b2f66f03fe9ddc2', $file = '/p3t/phpappfolder/includes/vendor/composer/../symfony/string/Resources/functions.php') /p3t/phpappfolder/includes/vendor/composer/autoload_real.php:38
+[29-Jan-2023 03:54:08 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:56:12 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:56:12 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:56:59 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:56:59 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:57:10 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:57:10 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:57:10 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:58:36 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:58:37 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:58:37 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:58:37 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:58:37 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[29-Jan-2023 03:58:37 Europe/London] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(

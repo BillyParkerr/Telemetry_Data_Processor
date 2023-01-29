@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2
+class ComposerStaticInited2071474e8e22b2e39c2e902fcf07fb
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -102,7 +102,7 @@ class ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2
     public static $prefixDirsPsr4 = array (
         'model\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/telemetry_data_processor_application/app/src/model',
+            0 => __DIR__ . '/../..' . '/app/src/model',
         ),
         'Twig\\' => 
         array (
@@ -178,8 +178,8 @@ class ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -219,7 +219,7 @@ class ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2
         ),
         'EESoapClient\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/telemetry_data_processor_application/app/src',
+            0 => __DIR__ . '/../..' . '/app/src',
         ),
         'Doctrine\\Persistence\\' => 
         array (
@@ -263,8 +263,8 @@ class ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/common/src',
-            1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
+            0 => __DIR__ . '/..' . '/doctrine/event-manager/src',
+            1 => __DIR__ . '/..' . '/doctrine/common/src',
         ),
         'DeepCopy\\' => 
         array (
@@ -393,6 +393,7 @@ class ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2
         'PHPUnit\\Framework\\MockObject\\CannotUseOnlyMethodsException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Exception/CannotUseOnlyMethodsException.php',
         'PHPUnit\\Framework\\MockObject\\ClassAlreadyExistsException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Exception/ClassAlreadyExistsException.php',
         'PHPUnit\\Framework\\MockObject\\ClassIsFinalException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Exception/ClassIsFinalException.php',
+        'PHPUnit\\Framework\\MockObject\\ClassIsReadonlyException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Exception/ClassIsReadonlyException.php',
         'PHPUnit\\Framework\\MockObject\\ConfigurableMethod' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/ConfigurableMethod.php',
         'PHPUnit\\Framework\\MockObject\\ConfigurableMethodsAlreadyInitializedException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Exception/ConfigurableMethodsAlreadyInitializedException.php',
         'PHPUnit\\Framework\\MockObject\\DuplicateMethodException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MockObject/Exception/DuplicateMethodException.php',
@@ -934,10 +935,10 @@ class ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit7d5b262c3c7c60f7e5e3a98dfbe4a1b2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInited2071474e8e22b2e39c2e902fcf07fb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInited2071474e8e22b2e39c2e902fcf07fb::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInited2071474e8e22b2e39c2e902fcf07fb::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInited2071474e8e22b2e39c2e902fcf07fb::$classMap;
 
         }, null, ClassLoader::class);
     }
