@@ -1,0 +1,61 @@
+{% block head %}
+    <link rel="stylesheet" href="{{ css_path }}" type="text/css"/>
+{% endblock %}
+
+{% block content %}
+    <h2>Telemetry Data Processor</h2>
+    <h3>Messages currently on M2M server</h3>
+    <table>
+        <tbody>
+        <th>Source MSISDN</th>
+        <th>Received Time</th>
+        <th>Heater Temperature</th>
+        <th>Fan State</th>
+        <th>Keypad Value</th>
+        <th>Switch One State</th>
+        <th>Switch Two State</th>
+        <th>Switch Three State</th>
+        <th>Switch Four State</th>
+        {% for message in messages %}
+            <tr>
+                <td>{{ message.sourcemsisdn }}</td>
+                <td>{{ message.receivedtime }}</td>
+                <td>{{ message.messageContent.heaterTemperature }}</td>
+                <td>{{ message.messageContent.fanState }}</td>
+                <td>{{ message.messageContent.keypadValue }}</td>
+                <td>{{ message.messageContent.switchOneState }}</td>
+                <td>{{ message.messageContent.switchTwoState }}</td>
+                <td>{{ message.messageContent.switchThreeState }}</td>
+                <td>{{ message.messageContent.switchFourState }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table><br>
+    <h3>Stored Messages</h3>
+    <table>
+        <tbody>
+        <th>Source MSISDN</th>
+        <th>Received Time</th>
+        <th>Heater Temperature</th>
+        <th>Fan State</th>
+        <th>Keypad Value</th>
+        <th>Switch One State</th>
+        <th>Switch Two State</th>
+        <th>Switch Three State</th>
+        <th>Switch Four State</th>
+        {% for message in storedMessages %}
+            <tr>
+                <td>{{ message.sourcemsisdn }}</td>
+                <td>{{ message.receivedtime }}</td>
+                <td>{{ message.messageContent.heaterTemperature }}</td>
+                <td>{{ message.messageContent.fanState }}</td>
+                <td>{{ message.messageContent.keypadValue }}</td>
+                <td>{{ message.messageContent.switchOneState }}</td>
+                <td>{{ message.messageContent.switchTwoState }}</td>
+                <td>{{ message.messageContent.switchThreeState }}</td>
+                <td>{{ message.messageContent.switchFourState }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
