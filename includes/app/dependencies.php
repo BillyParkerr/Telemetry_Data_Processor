@@ -5,6 +5,11 @@ use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
 // Register component on container
+/**
+ * @param $container
+ * @return \Slim\Views\Twig
+ * @throws \Twig\Error\LoaderError
+ */
 $container['view'] = function ($container) {
     $view = new \Slim\Views\Twig(
         $container['settings']['view']['template_path'],
@@ -17,6 +22,9 @@ $container['view'] = function ($container) {
     return $view;
 };
 
+/**
+ * @return Logger
+ */
 $container['logger'] = function (){
     $logs_file_path = '/p3t/phpappfolder/logs/';
     $logs_file_name = 'EE_SOAP_CLIENT_LOG.log';
@@ -26,10 +34,18 @@ $container['logger'] = function (){
     return $log;
 };
 
+/**
+ * @param $container
+ * @return \EESoapClient\SQLHelper
+ */
 $container['sqlHelper'] = function ($container) {
     return new \EESoapClient\SQLHelper($container['logger'], $container[EntityManager::class]);
 };
 
+/**
+ * @param $container
+ * @return \EESoapClient\SoapClientEE
+ */
 $container['soapClientEE'] = function ($container) {
     return new \EESoapClient\SoapClientEE($container['logger'], $container['sqlHelper']);
 };

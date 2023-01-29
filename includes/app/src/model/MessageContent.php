@@ -192,6 +192,9 @@ class MessageContent
         $this->switchFourState = $switchFourState;
     }
 
+    /**
+     * @return bool
+     */
     public function isValidMessageContent() : bool{
         if(!$this->isValidTeamName()) return false;
         if(!$this->isValidSwitchOneState()) return false;
@@ -205,6 +208,9 @@ class MessageContent
         return true;
     }
 
+    /**
+     * @return bool
+     */
     private function isValidTeamName() : bool{
         // Team name should always be 22-3110-AH
         if ($this->teamName != "22-3110-AH"){
@@ -214,32 +220,50 @@ class MessageContent
         return true;
     }
 
+    /**
+     * @return bool
+     */
     private function isValidSwitchOneState() : bool{
         // Switches should always have a state of off or on
         return $this->switchOneState == "off" || $this->switchOneState == "on";
     }
 
+    /**
+     * @return bool
+     */
     private function isValidSwitchTwoState() : bool{
         // Switches should always have a state of off or on
         return $this->switchTwoState == "off" || $this->switchTwoState == "on";
 
     }
 
+    /**
+     * @return bool
+     */
     private function isValidSwitchThreeState() : bool{
         // Switches should always have a state of off or on
         return $this->switchThreeState == "off" || $this->switchThreeState == "on";
     }
 
+    /**
+     * @return bool
+     */
     private function isValidSwitchFourState() : bool{
         // Switches should always have a state of off or on
         return $this->switchFourState == "off" || $this->switchFourState == "on";
     }
 
+    /**
+     * @return bool
+     */
     private function isValidFanState() : bool{
         // Fan should always be reverse or forward
         return $this->fanState == "reverse" || $this->fanState == "forward";
     }
 
+    /**
+     * @return bool
+     */
     private function isValidKeypadValue() : bool{
         // Keypad value should always be greater than 0 and less than 2147483647 in order to fit within an int(10).
         if (is_numeric($this->keypadValue) && floor($this->keypadValue) == $this->keypadValue && $this->keypadValue >= 0 && $this->keypadValue <= 2147483647) {
@@ -249,6 +273,9 @@ class MessageContent
         return false;
     }
 
+    /**
+     * @return bool
+     */
     private function isValidHeaterTemperature() : bool{
         // heater temperature should always be greater than 0 and less than 2147483647 in order to fit within an int(10).
         if (is_numeric($this->keypadValue) && floor($this->keypadValue) == $this->keypadValue && $this->keypadValue >= 0 && $this->keypadValue <= 2147483647) {
