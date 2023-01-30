@@ -3,7 +3,7 @@
         'name' => 'dmu/php_apps',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'ffbba489930682cef5d5e0e56c687fb68ae4708c',
+        'reference' => '4ad78a788ba9c459a8a401e61c0fc4e87b3964a7',
         'type' => 'labwork',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'dmu/php_apps' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'ffbba489930682cef5d5e0e56c687fb68ae4708c',
+            'reference' => '4ad78a788ba9c459a8a401e61c0fc4e87b3964a7',
             'type' => 'labwork',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -371,8 +371,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache-implementation' => array(

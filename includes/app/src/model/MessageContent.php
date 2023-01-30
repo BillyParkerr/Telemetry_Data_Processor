@@ -278,7 +278,7 @@ class MessageContent
      */
     private function isValidHeaterTemperature() : bool{
         // heater temperature should always be greater than 0 and less than 2147483647 in order to fit within an int(10).
-        if (is_numeric($this->keypadValue) && floor($this->keypadValue) == $this->keypadValue && $this->keypadValue >= 0 && $this->keypadValue <= 2147483647) {
+        if (is_numeric($this->heaterTemperature) && floor($this->heaterTemperature) == $this->heaterTemperature && $this->heaterTemperature >= 0 && $this->heaterTemperature <= 2147483647) {
             return true;
         }
 
